@@ -10,6 +10,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {ComponentUsagesPage} from "../pages/component-alert/component-usages";
 import {BadgesPage} from "../pages/component-badges/badges";
 import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons";
+import {ComponentCardsPage} from "../pages/component-cards/component-cards";
 
 
 @Component({
@@ -34,7 +35,8 @@ export class MyApp {
             {title: 'My First List', component: ListPage},
             {title: 'Alert', component: ComponentUsagesPage},
             {title: 'Badges', component: BadgesPage},
-            {title: 'Buttons', component: ComponentButtonsPage}
+            {title: 'Buttons', component: ComponentButtonsPage},
+            {title: 'Card' , component: ComponentCardsPage}
 
         ];
     }

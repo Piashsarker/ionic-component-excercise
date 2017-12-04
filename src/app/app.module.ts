@@ -12,6 +12,7 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {ComponentUsagesPage} from "../pages/component-alert/component-usages";
 import {BadgesPage} from "../pages/component-badges/badges";
 import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons";
+import {ComponentCardsPage} from "../pages/component-cards/component-cards";
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons
         ListPage,
         ComponentUsagesPage,
         BadgesPage,
-        ComponentButtonsPage
+        ComponentButtonsPage,
+        ComponentCardsPage
     ],
     imports: [
         BrowserModule,
@@ -35,7 +37,8 @@ import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons
         ListPage,
         ComponentUsagesPage,
         BadgesPage,
-        ComponentButtonsPage
+        ComponentButtonsPage,
+        ComponentCardsPage
     ],
     providers: [
         StatusBar,
