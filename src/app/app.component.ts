@@ -11,6 +11,8 @@ import {ComponentUsagesPage} from "../pages/component-alert/component-usages";
 import {BadgesPage} from "../pages/component-badges/badges";
 import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons";
 import {ComponentCardsPage} from "../pages/component-cards/component-cards";
+import {CheckboxPage} from "../pages/checkbox/checkbox";
+import {ComponentDatetimePage} from "../pages/component-datetime/component-datetime";
 
 
 @Component({
@@ -36,8 +38,9 @@ export class MyApp {
             {title: 'Alert', component: ComponentUsagesPage},
             {title: 'Badges', component: BadgesPage},
             {title: 'Buttons', component: ComponentButtonsPage},
-            {title: 'Card' , component: ComponentCardsPage}
-
+            {title: 'Card' , component: ComponentCardsPage},
+            {title: 'Checkbox', component: CheckboxPage},
+            {title: 'Date Time', component: ComponentDatetimePage}
         ];
     }
 

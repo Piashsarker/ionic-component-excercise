@@ -13,6 +13,8 @@ import {ComponentUsagesPage} from "../pages/component-alert/component-usages";
 import {BadgesPage} from "../pages/component-badges/badges";
 import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons";
 import {ComponentCardsPage} from "../pages/component-cards/component-cards";
+import {CheckboxPage} from "../pages/checkbox/checkbox";
+import {ComponentDatetimePage} from "../pages/component-datetime/component-datetime";
 
 @NgModule({
     declarations: [
@@ -23,7 +25,9 @@ import {ComponentCardsPage} from "../pages/component-cards/component-cards";
         ComponentUsagesPage,
         BadgesPage,
         ComponentButtonsPage,
-        ComponentCardsPage
+        ComponentCardsPage,
+        CheckboxPage,
+        ComponentDatetimePage
     ],
     imports: [
         BrowserModule,
@@ -38,7 +42,9 @@ import {ComponentCardsPage} from "../pages/component-cards/component-cards";
         ComponentUsagesPage,
         BadgesPage,
         ComponentButtonsPage,
-        ComponentCardsPage
+        ComponentCardsPage,
+        CheckboxPage,
+        ComponentDatetimePage
     ],
     providers: [
         StatusBar,
