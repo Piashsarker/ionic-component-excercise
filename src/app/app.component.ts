@@ -13,6 +13,14 @@ import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons
 import {ComponentCardsPage} from "../pages/component-cards/component-cards";
 import {CheckboxPage} from "../pages/checkbox/checkbox";
 import {ComponentDatetimePage} from "../pages/component-datetime/component-datetime";
+import {ComponentFabPage} from "../pages/component-fab/component-fab";
+import {GesturePage} from "../pages/gesture/gesture";
+import {ComponentGridPage} from "../pages/component-grid/component-grid";
+import {ComponentIconPage} from "../pages/component-icon/component-icon";
+import {ComponentInputPage} from "../pages/component-input/component-input";
+import {ComponentListPage} from "../pages/component-list/component-list";
+import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
+import {ComponentRadioPage} from "../pages/component-radio/component-radio";
 
 
 @Component({
@@ -40,7 +48,15 @@ export class MyApp {
             {title: 'Buttons', component: ComponentButtonsPage},
             {title: 'Card' , component: ComponentCardsPage},
             {title: 'Checkbox', component: CheckboxPage},
-            {title: 'Date Time', component: ComponentDatetimePage}
+            {title: 'Date Time', component: ComponentDatetimePage},
+            {title: 'FAB' , component: ComponentFabPage},
+            {title: 'Gesture' , component: GesturePage},
+            {title: 'Grid' , component: ComponentGridPage },
+            {title: 'Icon' , component: ComponentIconPage},
+            {title: 'Input' , component: ComponentInputPage},
+            {title: 'List' , component: ComponentListPage},
+            {title: 'Loading' , component: ComponentLoadingPage},
+            {title: 'Radio' , component: ComponentRadioPage}
         ];
     }
 

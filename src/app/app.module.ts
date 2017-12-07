@@ -15,6 +15,14 @@ import {ComponentButtonsPage} from "../pages/component-buttons/component-buttons
 import {ComponentCardsPage} from "../pages/component-cards/component-cards";
 import {CheckboxPage} from "../pages/checkbox/checkbox";
 import {ComponentDatetimePage} from "../pages/component-datetime/component-datetime";
+import {ComponentFabPage} from "../pages/component-fab/component-fab";
+import {GesturePage} from "../pages/gesture/gesture";
+import {ComponentGridPage} from "../pages/component-grid/component-grid";
+import {ComponentIconPage} from "../pages/component-icon/component-icon";
+import {ComponentInputPage} from "../pages/component-input/component-input";
+import {ComponentListPage} from "../pages/component-list/component-list";
+import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
+import {ComponentRadioPage} from "../pages/component-radio/component-radio";
 
 @NgModule({
     declarations: [
@@ -27,7 +35,15 @@ import {ComponentDatetimePage} from "../pages/component-datetime/component-datet
         ComponentButtonsPage,
         ComponentCardsPage,
         CheckboxPage,
-        ComponentDatetimePage
+        ComponentDatetimePage,
+        ComponentFabPage,
+        GesturePage,
+        ComponentGridPage,
+        ComponentIconPage,
+        ComponentInputPage,
+        ComponentListPage,
+        ComponentLoadingPage,
+        ComponentRadioPage
     ],
     imports: [
         BrowserModule,
@@ -44,7 +60,16 @@ import {ComponentDatetimePage} from "../pages/component-datetime/component-datet
         ComponentButtonsPage,
         ComponentCardsPage,
         CheckboxPage,
-        ComponentDatetimePage
+        ComponentDatetimePage,
+        ComponentFabPage,
+        GesturePage,
+        ComponentGridPage,
+        ComponentIconPage,
+        ComponentInputPage,
+        ComponentListPage,
+        ComponentLoadingPage,
+        ComponentRadioPage
+
     ],
     providers: [
         StatusBar,
