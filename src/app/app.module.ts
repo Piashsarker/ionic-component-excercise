@@ -23,6 +23,7 @@ import {ComponentInputPage} from "../pages/component-input/component-input";
 import {ComponentListPage} from "../pages/component-list/component-list";
 import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
 import {ComponentRadioPage} from "../pages/component-radio/component-radio";
+import {ComponentRangePage} from "../pages/component-range/component-range";
 
 @NgModule({
     declarations: [
@@ -43,7 +44,8 @@ import {ComponentRadioPage} from "../pages/component-radio/component-radio";
         ComponentInputPage,
         ComponentListPage,
         ComponentLoadingPage,
-        ComponentRadioPage
+        ComponentRadioPage,
+        ComponentRangePage
     ],
     imports: [
         BrowserModule,
@@ -68,7 +70,8 @@ import {ComponentRadioPage} from "../pages/component-radio/component-radio";
         ComponentInputPage,
         ComponentListPage,
         ComponentLoadingPage,
-        ComponentRadioPage
+        ComponentRadioPage,
+        ComponentRangePage
 
     ],
     providers: [

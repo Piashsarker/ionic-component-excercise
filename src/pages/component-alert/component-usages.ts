@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {ActionSheetController, AlertController, IonicPage, NavController, NavParams, Platform} from 'ionic-angular';
+import {ActionSheetController, AlertController,  NavController, NavParams, Platform} from 'ionic-angular';
 
 /**
  * Generated class for the ComponentUsagesPage page.
@@ -8,7 +8,7 @@ import {ActionSheetController, AlertController, IonicPage, NavController, NavPar
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
 @Component({
     selector: 'page-component-usages',
     templateUrl: 'component-usages.html'

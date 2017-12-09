@@ -21,6 +21,7 @@ import {ComponentInputPage} from "../pages/component-input/component-input";
 import {ComponentListPage} from "../pages/component-list/component-list";
 import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
 import {ComponentRadioPage} from "../pages/component-radio/component-radio";
+import {ComponentRangePage} from "../pages/component-range/component-range";
 
 
 @Component({
@@ -56,7 +57,8 @@ export class MyApp {
             {title: 'Input' , component: ComponentInputPage},
             {title: 'List' , component: ComponentListPage},
             {title: 'Loading' , component: ComponentLoadingPage},
-            {title: 'Radio' , component: ComponentRadioPage}
+            {title: 'Radio' , component: ComponentRadioPage},
+            {title: 'Range' , component: ComponentRangePage}
         ];
     }
 
