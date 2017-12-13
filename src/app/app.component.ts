@@ -22,6 +22,14 @@ import {ComponentListPage} from "../pages/component-list/component-list";
 import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
 import {ComponentRadioPage} from "../pages/component-radio/component-radio";
 import {ComponentRangePage} from "../pages/component-range/component-range";
+import {ComponentSearchbarPage} from "../pages/component-searchbar/component-searchbar";
+import {ComponentSegmentPage} from "../pages/component-segment/component-segment";
+import {ComponentSelectPage} from "../pages/component-select/component-select";
+import {ComponentSlidesPage} from "../pages/component-slides/component-slides";
+import {ComponentTabsPage} from "../pages/component-tabs/component-tabs";
+import {ComponentToastsPage} from "../pages/component-toasts/component-toasts";
+import {ComponentTogglePage} from "../pages/component-toggle/component-toggle";
+import {ComponentToolbarPage} from "../pages/component-toolbar/component-toolbar";
 
 
 @Component({
@@ -58,7 +66,15 @@ export class MyApp {
             {title: 'List' , component: ComponentListPage},
             {title: 'Loading' , component: ComponentLoadingPage},
             {title: 'Radio' , component: ComponentRadioPage},
-            {title: 'Range' , component: ComponentRangePage}
+            {title: 'Range' , component: ComponentRangePage},
+            {title: 'Search' , component: ComponentSearchbarPage},
+            {title: 'Segment' , component: ComponentSegmentPage},
+            {title: 'Select',component:ComponentSelectPage},
+            {title: 'Slides' , component:ComponentSlidesPage},
+            {title: "Tabs" , component: ComponentTabsPage},
+            {title: "Toast", component:ComponentToastsPage},
+            {title: "Toggle" , component: ComponentTogglePage},
+            {title: "Toolbar" , component:ComponentToolbarPage}
         ];
     }
 

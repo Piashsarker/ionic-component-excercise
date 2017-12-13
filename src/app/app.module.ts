@@ -24,6 +24,15 @@ import {ComponentListPage} from "../pages/component-list/component-list";
 import {ComponentLoadingPage} from "../pages/component-loading/component-loading";
 import {ComponentRadioPage} from "../pages/component-radio/component-radio";
 import {ComponentRangePage} from "../pages/component-range/component-range";
+import {ComponentSearchbarPage} from "../pages/component-searchbar/component-searchbar";
+import {ComponentSegmentPage} from "../pages/component-segment/component-segment";
+import {ComponentSelectPage} from "../pages/component-select/component-select";
+import {ComponentSlidesPage} from "../pages/component-slides/component-slides";
+import {ComponentTabsPage} from "../pages/component-tabs/component-tabs";
+import {ComponentToastsPage} from "../pages/component-toasts/component-toasts";
+import {ComponentTogglePage} from "../pages/component-toggle/component-toggle";
+import {ComponentToolbarPage} from "../pages/component-toolbar/component-toolbar";
+import {BasicTextPage} from "../pages/basic-text/basic-text";
 
 @NgModule({
     declarations: [
@@ -45,7 +54,16 @@ import {ComponentRangePage} from "../pages/component-range/component-range";
         ComponentListPage,
         ComponentLoadingPage,
         ComponentRadioPage,
-        ComponentRangePage
+        ComponentRangePage,
+        ComponentSearchbarPage,
+        ComponentSegmentPage,
+        ComponentSelectPage,
+        ComponentSlidesPage,
+        ComponentTabsPage,
+        ComponentToastsPage ,
+        ComponentTogglePage ,
+        ComponentToolbarPage,
+        BasicTextPage
     ],
     imports: [
         BrowserModule,
@@ -71,8 +89,16 @@ import {ComponentRangePage} from "../pages/component-range/component-range";
         ComponentListPage,
         ComponentLoadingPage,
         ComponentRadioPage,
-        ComponentRangePage
-
+        ComponentRangePage,
+        ComponentSearchbarPage,
+        ComponentSegmentPage,
+        ComponentSelectPage,
+        ComponentSlidesPage,
+        ComponentTabsPage,
+        ComponentToastsPage ,
+        ComponentTogglePage ,
+        ComponentToolbarPage,
+        BasicTextPage
     ],
     providers: [
         StatusBar,
